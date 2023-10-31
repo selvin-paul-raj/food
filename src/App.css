@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+  }
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+  }
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+   margin-bottom: 120px;
+  }
+  
+  .content {
+  
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    margin: 20px;
+   
+  }
+  
+  .food-list {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right:310px;
+    flex-wrap: wrap;
+ 
+    /* flex: 1; */
+    /* text-align: left; */
+  }
+  
+  .cart {
+    position: fixed;
+    top:200px;
+    right: 25px;
+    height: auto;
+ 
+    /* flex: 1; */
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    aspect-ratio: 5/5;
+    width: 440px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 8px black;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  
+  
+  }
+  img{
+    border-radius: 20px;
+    box-shadow: 10px 8px 8px rgb(59, 59, 59);
+  }
+  button {
+    margin-top: 5px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s ease;
+  }
+  
+  button:hover {
+    background-color: #61dafb;
+    color: black;
+
+  }
+  a{
+text-decoration: none ;
+padding: 5px;
+color: gray;
+margin-left: 5px;
+transition: 0.5s ease;
+
+  }
+  p{
+    padding: 5px;
+  }
+  h3{
+    margin: 15px;
+  }
+  a:hover{
+
+    text-decoration: underline;
+    text-decoration-color: black ;
+    text-decoration-thickness: 2px;
+  }
